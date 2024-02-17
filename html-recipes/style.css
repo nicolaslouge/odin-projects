@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    background-color: rgb(175, 175, 238);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
