@@ -1,9 +1,35 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(245, 245, 220, 0.8);
+}
+
+.recipe-list {
+    margin: 0 auto;
+    width: 50%;
+    height: 100vh;
+    display: block;
+    background-color: white;
+}
+
 h1 {
     text-align: center;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 3px solid;
 }
 
 h2 {
-    background-color: rgb(175, 175, 238);
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0px;
+    padding-left: 5px;
 }
